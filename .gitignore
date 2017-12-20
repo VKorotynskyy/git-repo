@@ -1,0 +1,5 @@
+#all txt files untrackable
+*.txt
+
+#test.txt is trackable
+!test.txt
