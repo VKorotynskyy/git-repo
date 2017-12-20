@@ -1,1 +1,18 @@
-body {background: violet;}
+body {
+    background-color: darkcyan;
+}
+
+.container {
+    display: grid;
+    grid-template-rows: repeat(1fr);
+    grid-template-columns: 1fr 1fr 1fr;
+    /* grid-gap: gap; */
+}
+
+.item {
+    background-color: darkorange;
+    border: 1px solid #8b8b8b;
+    border-radius: 5px;
+    color: rgba(255, 255, 255, .9);
+    text-align: center;
+}
